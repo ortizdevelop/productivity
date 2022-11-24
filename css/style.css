@@ -23,6 +23,20 @@ html, body {
 .header__img {
   margin-right: 73px;
   margin-left: 117px;
+  transition: 0.3s;
+}
+.header__img img {
+  transition: 0.3s;
+}
+.header__img:hover {
+  transition: 0.3s;
+}
+.header__img:hover a {
+  transition: 0.3s;
+}
+.header__img:hover a img {
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 .header__navigation {
   margin-right: 361px;
@@ -30,8 +44,12 @@ html, body {
 .header__nav-column {
   display: flex;
 }
+.header__nav-list {
+  transition: 0.3s;
+}
 .header__nav-list a {
   margin-right: 42px;
+  transition: 0.3s;
 }
 .header__nav-list a span {
   font-size: 12px;
@@ -41,22 +59,112 @@ html, body {
   text-transform: capitalize;
   color: #697ca6;
   text-shadow: 0 0 5px 0 #e6e6e6;
+  transition: 0.3s;
+}
+.header__nav-list a .line1 {
+  left: 215px;
+  top: 54px;
+  width: 40px;
+}
+.header__nav-list a .line2 {
+  left: 297px;
+  top: 54px;
+  width: 25px;
+}
+.header__nav-list a .line3 {
+  left: 372px;
+  top: 54px;
+  width: 40px;
+}
+.header__nav-list a .line4 {
+  left: 467px;
+  top: 54px;
+  width: 30px;
+}
+.header__nav-list a .line5 {
+  left: 558px;
+  top: 54px;
+  width: 70px;
+}
+.header__nav-list a:hover {
+  transition: 0.3s;
+}
+.header__nav-list a:hover span {
+  transition: 0.3s;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #5e81fe;
+  text-shadow: 0 0 5px 0 #e6e6e6;
+}
+.header__nav-list a:hover .lines {
+  background-color: #3a79ff;
+  transition: 0.3s;
+  transform: translateY(10px);
+}
+.header__media {
+  transition: 0.3s;
 }
 .header__media-column {
   display: flex;
+  text-align: center;
+  align-items: center;
+}
+.header__media-list {
+  transition: 0.3s;
 }
 .header__media-list a {
+  transition: 0.3s;
   margin-right: 37.58px;
+}
+.header__media-list a img {
+  transition: 0.3s;
+}
+.header__media-list a:hover {
+  transition: 0.3s;
+  filter: invert(56%) sepia(38%) saturate(6735%) hue-rotate(210deg) brightness(106%) contrast(102%);
 }
 .header__button {
   margin-left: 19.5px;
 }
+.header__button:hover {
+  background: #D2E1FF;
+  transition: 0.3s;
+}
+.header__button:hover a {
+  transition: 0.3s;
+}
+.header__button:hover a span {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  color: #3a79ff;
+  transition: 0.3s;
+}
+
 .buttons {
   padding: 13px 16px;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.buttons a {
+  transition: 0.3s;
 }
 .buttons a span {
+  transition: 0.3s;
   font-size: 13px;
   font-weight: 700;
   text-align: center;
   color: #697ca6;
+}
+
+.lines {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 3px;
+  border-radius: 2px;
 }
