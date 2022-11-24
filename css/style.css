@@ -2,8 +2,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 html, body {
   position: relative;
-  width: 1864px;
+  width: 1695px;
   height: 6181px;
   background: #FFFFFF;
   margin: 0 auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #D8E3FE;
+}
+.header__body {
+  border: 1px solid blue;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-top: 33px;
+  padding-bottom: 32px;
+}
+.header__img {
+  margin-right: 73px;
+  margin-left: 117px;
+}
+.header__navigation {
+  margin-right: 361px;
+}
+.header__nav-column {
+  display: flex;
+}
+.header__nav-list a {
+  margin-right: 42px;
+}
+.header__nav-list a span {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #697ca6;
+  text-shadow: 0 0 5px 0 #e6e6e6;
+}
+.header__media-column {
+  display: flex;
+}
+.header__media-list a {
+  margin-right: 37.58px;
+}
+.header__button {
+  margin-left: 19.5px;
+}
+.buttons {
+  padding: 13px 16px;
+}
+.buttons a span {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  color: #697ca6;
 }
