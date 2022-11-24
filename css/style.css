@@ -1,3 +1,8 @@
-@charset "UTF-8";
-/*Обнуление*/
 @import url("/css/nullstyle.css");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+html, body {
+  position: relative;
+  width: 1440px;
+  height: 6181px;
+  background: #FFFFFF;
+}

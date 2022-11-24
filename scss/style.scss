@@ -1,2 +1,57 @@
 //* Zeroing
 @import url('/css/nullstyle.css');
+
+//* Imports
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+//* Templates
+$color1: #3D4F9F;
+$color2: #D8E3FE;
+$color3: #FFFFFF;
+$color4: #DFE2EF;
+$color5: #D1D6E3;
+
+$bd1: 1px solid red;
+$bd2: 1px solid blue;
+$bd3: 1px solid purple;
+
+
+html,body{
+    position: relative;
+    width: 1440px;
+    height: 6181px;
+    background: #FFFFFF;
+}
+
+.header {
+
+    &__body {
+    }
+
+    &__img {
+    }
+
+    &__navigation {
+    }
+
+    &__nav-column {
+    }
+
+    &__nav-list {
+    }
+
+    &__media {
+    }
+
+    &__media-column {
+    }
+
+    &__media-list {
+    }
+
+    &__button {
+    }
+}
+
+//* Common Classes
+.buttons{}
