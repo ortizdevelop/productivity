@@ -18,7 +18,7 @@ $bd3: 1px solid purple;
 //* Main Website Settings
 html,body{
     position: relative;
-    width: 1495px;
+    width: 1490px;
     background: #FFFFFF;
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
@@ -71,13 +71,13 @@ html,body{
 
         a{
             .line1{
-                left: 215px;
+                left: 214px;
                 top: 54px;
                 width: 40px;
             }
     
             .line2{
-                left: 297px;
+                left: 296px;
                 top: 54px;
                 width: 25px;
             }
@@ -173,9 +173,11 @@ html,body{
 .footer {
 
     &__body {
+        top: 240px;
+        position: relative;
         margin-top: 120px;
-        border: $bd1;
         display: flex;
+        height: 352px;
         border-top: 1px solid #D8E3FE;
     }
 
@@ -195,21 +197,33 @@ html,body{
     &__left-list {
 
         .line6 {
-        }
-
-        .lines {
+            left: 214px;
+            top: 114px;
+            width: 40px;
         }
 
         .line7 {
+            left: 295px;
+            top: 114px;
+            width: 25px;
         }
 
         .line8 {
+            left: 372px;
+            top: 114px;
+            width: 40px;
         }
 
         .line9 {
+            left: 467px;
+            top: 114px;
+            width: 30px;
         }
 
         .line10 {
+            left: 558px;
+            top: 114px;
+            width: 70px;
         }
     }
 
@@ -222,6 +236,7 @@ html,body{
         position: relative;
         left: 216px;
         top: 28px;
+        transition: 0.3s;
     }
 
     &__left-copyright-author {
@@ -235,7 +250,7 @@ html,body{
 
             &:hover{
                 transition: 0.3s;
-                font-size: 12px;
+                font-size: 13px;
                 font-weight: 700;
                 letter-spacing: 0.05em;
                 text-transform: capitalize;
@@ -308,6 +323,26 @@ html,body{
     }
 
     &__right-list {
+        button{
+            margin-left: 19.5px;
+
+            &:hover{
+                background: #D2E1FF;
+                transition: 0.3s;
+    
+                a{
+                    transition: 0.3s;
+    
+                    span{
+                        font-size: 13px;
+                        font-weight: 700;
+                        text-align: center;
+                        color: #3a79ff;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
     }
 }
 

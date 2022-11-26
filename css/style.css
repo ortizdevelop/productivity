@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 html, body {
   position: relative;
-  width: 1495px;
+  width: 1490px;
   background: #FFFFFF;
   margin: 0 auto;
   font-family: "Quicksand", sans-serif;
@@ -46,12 +46,12 @@ html, body {
   transition: 0.3s;
 }
 .header__nav-list a .line1 {
-  left: 215px;
+  left: 214px;
   top: 54px;
   width: 40px;
 }
 .header__nav-list a .line2 {
-  left: 297px;
+  left: 296px;
   top: 54px;
   width: 25px;
 }
@@ -115,9 +115,11 @@ html, body {
 }
 
 .footer__body {
+  top: 240px;
+  position: relative;
   margin-top: 120px;
-  border: 1px solid red;
   display: flex;
+  height: 352px;
   border-top: 1px solid #D8E3FE;
 }
 .footer__left {
@@ -128,6 +130,31 @@ html, body {
   align-items: center;
   text-align: center;
 }
+.footer__left-list .line6 {
+  left: 214px;
+  top: 114px;
+  width: 40px;
+}
+.footer__left-list .line7 {
+  left: 295px;
+  top: 114px;
+  width: 25px;
+}
+.footer__left-list .line8 {
+  left: 372px;
+  top: 114px;
+  width: 40px;
+}
+.footer__left-list .line9 {
+  left: 467px;
+  top: 114px;
+  width: 30px;
+}
+.footer__left-list .line10 {
+  left: 558px;
+  top: 114px;
+  width: 70px;
+}
 .footer__left-image {
   margin-left: 117px;
   margin-right: 73px;
@@ -136,6 +163,7 @@ html, body {
   position: relative;
   left: 216px;
   top: 28px;
+  transition: 0.3s;
 }
 .footer__left-copyright-author p {
   font-size: 12px;
@@ -147,7 +175,7 @@ html, body {
 }
 .footer__left-copyright-author p:hover {
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: capitalize;
@@ -201,6 +229,24 @@ html, body {
   display: flex;
   align-items: center;
 }
+.footer__right-list button {
+  margin-left: 19.5px;
+}
+.footer__right-list button:hover {
+  background: #D2E1FF;
+  transition: 0.3s;
+}
+.footer__right-list button:hover a {
+  transition: 0.3s;
+}
+.footer__right-list button:hover a span {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  color: #3a79ff;
+  transition: 0.3s;
+}
+
 .buttons {
   padding: 13px 16px;
   border-radius: 2px;
