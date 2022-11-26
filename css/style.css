@@ -114,6 +114,10 @@ html, body {
   transition: 0.3s;
 }
 
+.productivity__body {
+  width: 1441px;
+  height: 570px;
+}
 .footer__body {
   top: 240px;
   position: relative;
