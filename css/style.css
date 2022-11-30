@@ -140,6 +140,7 @@ html, body {
 }
 .productivity__subtitle {
   position: relative;
+  left: 10px;
   margin-top: 16px;
   margin-bottom: 28px;
   text-align: center;
@@ -153,7 +154,7 @@ html, body {
 }
 .productivity__text {
   position: relative;
-  left: 469px;
+  left: 490px;
   width: 502px;
   height: 78px;
   text-align: center;
@@ -168,7 +169,7 @@ html, body {
 .productivity__button {
   position: relative;
   top: 20px;
-  left: 694px;
+  left: 715px;
   z-index: 2;
   background-color: #F4F7FF;
 }
@@ -198,10 +199,57 @@ html, body {
 }
 .productivity__image-chart {
   position: relative;
-  width: 1493px;
+  width: 1490px;
   top: -428px;
   left: -470px;
 }
+.productivity__slider {
+  position: relative;
+  top: -380px;
+  text-align: center;
+  align-items: center;
+  transition: 0.3s;
+  z-index: 2;
+}
+.productivity__slider span {
+  border-radius: 50%;
+  position: relative;
+  margin-right: 12px;
+  padding: 8px;
+  display: inline-block;
+  background: #D1D6E3;
+  transition: 0.3s;
+}
+.productivity__slider span:hover {
+  transition: 0.3s;
+  background: #5283FF;
+  transform: scale(1.1);
+}
+.productivity__companies {
+  position: relative;
+  padding-bottom: 58px;
+  border-bottom: 1px solid #D8E3FE;
+  width: 1490px;
+  z-index: 2;
+}
+.productivity__companies-columns {
+  display: flex;
+}
+.productivity__companies-list {
+  position: relative;
+  left: 296px;
+  margin-right: 76.5px;
+  transition: 0.3s;
+}
+.productivity__companies-list img {
+  transition: 0.3s;
+}
+.productivity__companies-list img:hover {
+  transition: 0.3s;
+  filter: invert(50%) sepia(57%) saturate(605%) hue-rotate(187deg) brightness(90%) contrast(101%);
+  transform: translateY(-6px);
+}
+
 .footer__body {
   top: 240px;
   position: relative;
