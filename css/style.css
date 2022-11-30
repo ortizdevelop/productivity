@@ -1,5 +1,5 @@
 @import url("/css/nullstyle.css");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 html, body {
   position: relative;
   width: 1490px;
@@ -115,8 +115,92 @@ html, body {
 }
 
 .productivity__body {
-  width: 1441px;
+  width: 1490px;
   height: 570px;
+}
+.productivity__bg {
+  position: absolute;
+  z-index: 0;
+  top: 106px;
+}
+.productivity__bg img {
+  width: 1490px;
+}
+.productivity__title {
+  position: relative;
+  margin-top: 91px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d4f9f;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  z-index: 1;
+}
+.productivity__subtitle {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 28px;
+  text-align: center;
+  font-size: 48px;
+  text-align: center;
+  color: #3d4f9f;
+  z-index: 1;
+}
+.productivity__subtitle span {
+  font-weight: bold;
+}
+.productivity__text {
+  position: relative;
+  left: 469px;
+  width: 502px;
+  height: 78px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 191%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #8d96bd;
+  border: 0px solid #dfe2ef;
+  z-index: 1;
+}
+.productivity__button {
+  position: relative;
+  top: 20px;
+  left: 694px;
+  z-index: 2;
+  background-color: #F4F7FF;
+}
+.productivity__button img {
+  transition: 0.3s;
+}
+.productivity__button img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.productivity__image {
+  position: relative;
+  top: 47px;
+  left: 470px;
+  z-index: 1;
+}
+.productivity__image-fuel {
+  position: relative;
+  top: -3px;
+  right: 13px;
+  transition: 0.3s;
+  z-index: 2;
+}
+.productivity__image-fuel:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.productivity__image-chart {
+  position: relative;
+  width: 1493px;
+  top: -428px;
+  left: -470px;
 }
 .footer__body {
   top: 240px;

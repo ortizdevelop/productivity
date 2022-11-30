@@ -2,7 +2,7 @@
 @import url('/css/nullstyle.css');
 
 //* Imports
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 //* Templates
 $color1: #3D4F9F;
@@ -14,6 +14,9 @@ $color5: #D1D6E3;
 $bd1: 1px solid red;
 $bd2: 1px solid blue;
 $bd3: 1px solid purple;
+
+$ff1: 'Quicksand', sans-serif;
+$ff2: 'Roboto', sans-serif;
 
 //* Main Website Settings
 html,body{
@@ -161,29 +164,106 @@ html,body{
 .productivity {
 
     &__body {
-        width: 1441px;
+        width: 1490px;
         height: 570px;
     }
 
+    &__bg{
+        position: absolute;
+        z-index: 0;
+        top: 106px;
+        
+        img{
+            width: 1490px;
+        }
+    }
+
     &__title {
+        position: relative;
+        margin-top: 91px;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3d4f9f;
+        text-align: center;
+        font-family: $ff2;
+        z-index: 1;
     }
 
     &__subtitle {
+        position: relative;
+        margin-top: 16px;
+        margin-bottom: 28px;
+        text-align: center;
+        font-size: 48px;
+        text-align: center;
+        color: #3d4f9f;
+        z-index: 1;
+
+        span{
+            font-weight: bold;
+        }
     }
 
     &__text {
+        position: relative;
+        left: 469px;
+        width: 502px;
+        height: 78px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 191%;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #8d96bd;
+        border: 0px solid #dfe2ef;
+        z-index: 1;
     }
 
     &__button {
+        position: relative;
+        top: 20px;
+        left: 694px;
+        z-index: 2;
+        background-color: #F4F7FF;
+
+        img{
+            transition: 0.3s;
+            
+            &:hover{
+                transition: 0.3s;
+                transform: scale(1.1);
+            }
+        }
     }
 
     &__image {
+        position: relative;
+        top: 47px;
+        left: 470px;
+        z-index: 1;
     }
 
     &__image-fuel {
+        position: relative;
+        top: -3px;
+        right: 13px;
+        transition: 0.3s;
+        z-index: 2;
+
+        &:hover{
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
+        
     }
 
     &__image-chart {
+        position: relative;
+        width: 1493px;
+        top: -428px;
+        left: -470px;
     }
 
     &__slider {
