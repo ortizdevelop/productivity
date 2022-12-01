@@ -250,6 +250,106 @@ html, body {
   transform: translateY(-6px);
 }
 
+.app__body {
+  background: #F5F8FF;
+  display: flex;
+  height: 776px;
+}
+.app__content {
+  position: relative;
+  left: 271px;
+  top: 270px;
+}
+.app__title {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d4f9f;
+  margin-bottom: 27px;
+}
+.app__subtitle {
+  font-size: 36px;
+  color: #3d4f9f;
+  margin-bottom: 27px;
+}
+.app__subtitle span {
+  font-weight: bold;
+}
+.app__text {
+  width: 413px;
+  height: 151px;
+  font-size: 15px;
+  line-height: 191%;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+  border: 0px solid #dfe2ef;
+  margin-bottom: 47px;
+}
+.app__button {
+  position: relative;
+  background-color: #F5F8FF;
+  border: 1px solid #D1D1E4;
+  transition: 0.3s;
+  background: url("/img/Polygon.svg") 60px 18px no-repeat;
+}
+.app__button a {
+  transition: 0.3s;
+}
+.app__button a span {
+  transition: 0.3s;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #adb4d2;
+}
+.app__button:hover {
+  transition: 0.3s;
+  width: 130.08px;
+  height: 43px;
+  background-color: #4c85ff;
+  box-shadow: 0 5px 15px 0 rgba(188, 199, 255, 0.75);
+  background: #4c85ff url("/img/Polygon.png") 105px 18px no-repeat;
+}
+.app__button:hover a {
+  transition: 0.3s;
+}
+.app__button:hover a span {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+.app__button1 {
+  position: relative;
+  transition: 0.3s;
+}
+.app__button2 {
+  position: relative;
+  right: 4.5px;
+  transition: 0.3s;
+}
+.app__button2:hover {
+  transition: 0.3s;
+  width: 130.08px;
+  height: 43px;
+  background-color: #4c85ff;
+  box-shadow: 0 5px 15px 0 rgba(188, 199, 255, 0.75);
+  background: #4c85ff url("/img/Polygon.png") 110px 18px no-repeat;
+}
+.app__button2:hover a {
+  transition: 0.3s;
+}
+.app__button2:hover a span {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+.app__image {
+  position: relative;
+  left: 255px;
+  top: 170px;
+}
+
 .footer__body {
   top: 240px;
   position: relative;
@@ -397,6 +497,11 @@ html, body {
   font-weight: 700;
   text-align: center;
   color: #697ca6;
+}
+
+.double-button {
+  width: 130.08px;
+  height: 43px;
 }
 
 .nav-buttons {
