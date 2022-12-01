@@ -326,6 +326,8 @@ html,body{
 .app {
 
     &__body {
+        background: #F5F8FF;
+        display: flex;
     }
 
     &__content {
@@ -554,7 +556,8 @@ html,body{
     }
 }
 
-.double-button
+.double-button{
+}
 
 .nav-buttons{
     margin-right: 42px;

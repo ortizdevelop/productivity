@@ -250,6 +250,10 @@ html, body {
   transform: translateY(-6px);
 }
 
+.app__body {
+  background: #F5F8FF;
+  display: flex;
+}
 .footer__body {
   top: 240px;
   position: relative;
