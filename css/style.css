@@ -253,11 +253,12 @@ html, body {
 .app__body {
   background: #F5F8FF;
   display: flex;
+  height: 776px;
 }
 .app__content {
   position: relative;
   left: 271px;
-  top: 260px;
+  top: 270px;
 }
 .app__title {
   font-size: 10px;
