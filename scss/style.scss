@@ -323,6 +323,30 @@ html,body{
 }
 
 //* App
+.app {
+
+    &__body {
+    }
+
+    &__content {
+    }
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__text {
+    }
+
+    &__buttons {
+    }
+
+    &__image {
+    }
+}
+
 
 //* About
 
@@ -529,6 +553,8 @@ html,body{
         }
     }
 }
+
+.double-button
 
 .nav-buttons{
     margin-right: 42px;
