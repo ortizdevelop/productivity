@@ -482,20 +482,41 @@ html,body{
         display: flex;
         align-items: center;
         text-align: center;
+        transition: 0.3s;
     }
 
     &__list {
         position: relative;
-        left: 340px;
+        left: 330px;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-right: 67px;
+        border-radius: 5px;
+        padding: 5px;
+        transition: 0.3s;
+
+        &:hover{
+            transition: 0.3s;
+            background-color: #4074F8;
+            transform: scale(1.05);
+
+            p{
+                transition: 0.3s;
+                color: #FFFFFF;
+            }
+
+            span{
+                transition: 0.3s;
+                color: #FFFFFF;
+            }
+        }
     }
 
     &__list-image {
         text-align: center;
         margin-bottom: 33px;
+        transition: 0.3s;
     }
 
     &__list-title {
@@ -506,6 +527,7 @@ html,body{
         line-height: 177%;
         text-align: center;
         color: #4074f8;
+        transition: 0.3s;
     }
 
     &__list-text {
@@ -517,6 +539,36 @@ html,body{
         text-align: center;
         color: #adb3cb;
         border: 0px solid #dfe2ef;
+        transition: 0.3s;
+    }
+
+    &__lines{
+        position: relative;
+        bottom: 130px;
+        left: 500px;
+        
+        span{
+            display: inline-block;
+            width: 28px;
+            height: 1px;
+            border: 1px solid #DAE4FE;
+            background-color: #DAE4FE;
+        }
+
+        .line1{
+            position: relative;
+        }
+
+        .line2{
+            position: relative;
+            left: 180px;
+
+        }
+
+        .line3{
+            position: relative;
+            left: 375px;
+        }
     }
 
     &__links {

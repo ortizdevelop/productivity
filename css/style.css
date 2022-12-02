@@ -385,18 +385,36 @@ html, body {
   display: flex;
   align-items: center;
   text-align: center;
+  transition: 0.3s;
 }
 .about__list {
   position: relative;
-  left: 340px;
+  left: 330px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 67px;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.about__list:hover {
+  transition: 0.3s;
+  background-color: #4074F8;
+  transform: scale(1.05);
+}
+.about__list:hover p {
+  transition: 0.3s;
+  color: #FFFFFF;
+}
+.about__list:hover span {
+  transition: 0.3s;
+  color: #FFFFFF;
 }
 .about__list-image {
   text-align: center;
   margin-bottom: 33px;
+  transition: 0.3s;
 }
 .about__list-title {
   text-align: center;
@@ -406,6 +424,7 @@ html, body {
   line-height: 177%;
   text-align: center;
   color: #4074f8;
+  transition: 0.3s;
 }
 .about__list-text {
   display: flex;
@@ -416,6 +435,30 @@ html, body {
   text-align: center;
   color: #adb3cb;
   border: 0px solid #dfe2ef;
+  transition: 0.3s;
+}
+.about__lines {
+  position: relative;
+  bottom: 130px;
+  left: 500px;
+}
+.about__lines span {
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  border: 1px solid #DAE4FE;
+  background-color: #DAE4FE;
+}
+.about__lines .line1 {
+  position: relative;
+}
+.about__lines .line2 {
+  position: relative;
+  left: 180px;
+}
+.about__lines .line3 {
+  position: relative;
+  left: 375px;
 }
 .about__links {
   display: flex;
