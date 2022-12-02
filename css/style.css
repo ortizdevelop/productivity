@@ -389,7 +389,7 @@ html, body {
 }
 .about__list {
   position: relative;
-  left: 330px;
+  left: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -440,7 +440,7 @@ html, body {
 .about__lines {
   position: relative;
   bottom: 130px;
-  left: 500px;
+  left: 490px;
 }
 .about__lines span {
   display: inline-block;
@@ -464,7 +464,7 @@ html, body {
   display: flex;
   align-items: center;
   position: relative;
-  left: 575px;
+  left: 570px;
   top: 92px;
   transition: 0.3s;
 }
