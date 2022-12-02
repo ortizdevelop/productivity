@@ -352,15 +352,147 @@ html, body {
   top: 170px;
 }
 
+.about {
+  position: relative;
+  z-index: 2;
+}
 .about__body {
   width: 1441px;
   height: 890.5px;
+  background: url("/img/clouds.svg");
 }
 .about__content {
   position: relative;
   top: 165.5px;
-  left: 640px;
 }
+.about__title {
+  margin-bottom: 20px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3d4f9f;
+}
+.about__subtitle {
+  margin-bottom: 92px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #3d4f9f;
+}
+.about__column {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.about__list {
+  position: relative;
+  left: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 67px;
+}
+.about__list-image {
+  text-align: center;
+  margin-bottom: 33px;
+}
+.about__list-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 177%;
+  text-align: center;
+  color: #4074f8;
+}
+.about__list-text {
+  display: flex;
+  width: 140px;
+  height: 102px;
+  font-size: 11px;
+  line-height: 177%;
+  text-align: center;
+  color: #adb3cb;
+  border: 0px solid #dfe2ef;
+}
+.about__links {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 575px;
+  top: 92px;
+  transition: 0.3s;
+}
+.about__links p {
+  transition: 0.3s;
+}
+.about__links:hover {
+  transition: 0.3s;
+}
+.about__links:hover p {
+  transition: 0.3s;
+  font-weight: 700;
+  color: #7382A3;
+}
+.about__links-button1 {
+  transition: 0.3s;
+}
+.about__links-button1:hover {
+  transition: 0.3s;
+  background-color: #D2E1FF;
+  transform: scale(1.1);
+}
+.about__links-button1:hover a span {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  color: #3a79ff;
+}
+.about__links-button2 {
+  transition: 0.3s;
+}
+.about__links-button2:hover {
+  transition: 0.3s;
+  background-color: #FFD7D7;
+  transform: scale(1.1);
+}
+.about__links-button2:hover a span {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  color: #d43f3f;
+}
+.about__links-text {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+.about__links-text span {
+  width: 15px;
+  height: 0px;
+  border: 1px solid #DAE4FE;
+  background-color: #DAE4FE;
+  display: flex;
+}
+.about__links-text span:nth-child(1) {
+  position: relative;
+  top: 11px;
+  left: 27px;
+}
+.about__links-text span:nth-child(3) {
+  position: relative;
+  bottom: 10px;
+  right: 27px;
+}
+.about__links-text p {
+  font-size: 11px;
+  line-height: 177%;
+  text-align: center;
+  color: #adb3cb;
+  border: 0px solid #dfe2ef;
+}
+
 .footer__body {
   top: 240px;
   position: relative;
