@@ -254,6 +254,8 @@ html, body {
   background: #F5F8FF;
   display: flex;
   height: 776px;
+  border-bottom: 1px solid #D8E3FE;
+  padding-bottom: 1px;
 }
 .app__content {
   position: relative;
@@ -350,6 +352,15 @@ html, body {
   top: 170px;
 }
 
+.about__body {
+  width: 1441px;
+  height: 890.5px;
+}
+.about__content {
+  position: relative;
+  top: 165.5px;
+  left: 640px;
+}
 .footer__body {
   top: 240px;
   position: relative;

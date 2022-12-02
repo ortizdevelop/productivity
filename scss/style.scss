@@ -329,6 +329,8 @@ html,body{
         background: #F5F8FF;
         display: flex;
         height: 776px;
+        border-bottom: 1px solid #D8E3FE;
+        padding-bottom: 1px;
     }
 
     &__content {
@@ -446,6 +448,14 @@ html,body{
 .about {
 
     &__body {
+        width: 1441px;
+        height: 890.5px;
+    }
+
+    &__content{
+        position: relative;
+        top: 165.5px;
+        left: 640px;
     }
 
     &__title {
