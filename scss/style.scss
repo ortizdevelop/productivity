@@ -741,6 +741,47 @@ html,body{
 }
 
 //* Resources
+.resources {
+
+    &__body {
+    }
+
+    &__content {
+    }
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__left-arrow {
+    }
+
+    &__slider {
+    }
+
+    &__planning {
+    }
+
+    &__planning-image {
+    }
+
+    &__planning-title {
+    }
+
+    &__planning-text {
+    }
+
+    &__planning-buttons {
+    }
+
+    &__right-arrow {
+    }
+
+    &__slider-buttons {
+    }
+}
 
 //* Testimonials
 
@@ -985,6 +1026,9 @@ html,body{
             transform: translateY(10px);
         }
     }
+}
+
+.slider-button {
 }
 
 .lines{
