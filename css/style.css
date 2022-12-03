@@ -535,7 +535,11 @@ html, body {
   color: #adb3cb;
   border: 0px solid #dfe2ef;
 }
-
+.about__stats {
+  position: relative;
+  bottom: 5px;
+  border: 1px solid red;
+}
 .footer__body {
   top: 240px;
   position: relative;

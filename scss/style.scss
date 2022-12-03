@@ -664,6 +664,36 @@ html,body{
             border: 0px solid #dfe2ef;
         }
     }
+
+    &__stats {
+        position: relative;
+        bottom: 5px;
+        border: $bd1;
+
+        &__stats-left {
+        }
+    
+        &__stats-left-image {
+        }
+    
+        &__stats-left-percent {
+        }
+    
+        &__stats-left-text {
+        }
+    
+        &__stats-right {
+        }
+    
+        &__stats-right-image {
+        }
+    
+        &__stats-right-number {
+        }
+    
+        &__stats-right-text {
+        }
+    }
 }
 
 //* Resources
