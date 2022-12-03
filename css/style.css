@@ -537,9 +537,67 @@ html, body {
 }
 .about__stats {
   position: relative;
-  bottom: 5px;
-  border: 1px solid red;
+  right: 25px;
+  bottom: 6px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-top: 1px solid #D8E3FE;
 }
+.about__stats-left {
+  padding: 70px 90px;
+  position: relative;
+  text-align: right;
+  justify-content: right;
+  background-color: #6888FF;
+}
+.about__stats-left-percent {
+  font-size: 48px;
+  line-height: 174%;
+  letter-spacing: 0.03em;
+  text-align: right;
+  color: #fff;
+}
+.about__stats-left-text {
+  position: relative;
+  bottom: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-align: right;
+  color: #fff;
+}
+.about__stats-right {
+  padding: 70px 90px;
+  position: relative;
+  background-color: #E9EFFF;
+}
+.about__stats-right-image {
+  position: relative;
+}
+.about__stats-right-number {
+  position: relative;
+  font-size: 48px;
+  line-height: 174%;
+  letter-spacing: 0.03em;
+  color: #5e80ff;
+}
+.about__stats-right-text {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #5e80ff;
+}
+.about .stat-image, .about .stat-text, .about .stat-title {
+  margin-bottom: 24px;
+}
+
 .footer__body {
   top: 240px;
   position: relative;
