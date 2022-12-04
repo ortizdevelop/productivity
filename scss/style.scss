@@ -856,6 +856,42 @@ html,body{
 }
 
 //* Testimonials
+.testimonials {
+
+    &__body {
+        position: relative;
+        bottom: 6px;
+        height: 479px;
+        border-top: 1px solid #D8E3FE;;
+        background-color: #EAF0FF;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__left {
+    }
+
+    &__left-title {
+    }
+
+    &__left-subtitle {
+    }
+
+    &__left-text {
+    }
+
+    &__right {
+    }
+
+    &__right-slide {
+    }
+
+    &__right-pic {
+    }
+
+    &__right-slider-button {
+    }
+}
 
 //* Help
 
@@ -1117,9 +1153,13 @@ html,body{
 
         &:hover{
             transition: 0.3s;
-            background: #5283FF;
-            transform: scale(1.1);
+            transform: scale(1.05);
         }   
+    }
+
+    .active{
+        background: #5283FF;
+        transform: scale(1.1);
     }
 }
 

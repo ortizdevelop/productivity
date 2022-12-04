@@ -692,6 +692,15 @@ html, body {
   margin-top: 131px;
 }
 
+.testimonials__body {
+  position: relative;
+  bottom: 6px;
+  height: 479px;
+  border-top: 1px solid #D8E3FE;
+  background-color: #EAF0FF;
+  display: flex;
+  justify-content: space-around;
+}
 .footer__body {
   top: 240px;
   position: relative;
@@ -896,6 +905,9 @@ html, body {
 }
 .slider-button span:hover {
   transition: 0.3s;
+  transform: scale(1.05);
+}
+.slider-button .active {
   background: #5283FF;
   transform: scale(1.1);
 }
