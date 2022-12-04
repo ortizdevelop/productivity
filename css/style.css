@@ -701,6 +701,67 @@ html, body {
   display: flex;
   justify-content: space-around;
 }
+.testimonials__left {
+  margin-top: 146px;
+}
+.testimonials__left-title {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d4f9f;
+  margin-bottom: 31px;
+  font-family: "Roboto", sans-serif;
+}
+.testimonials__left-subtitle {
+  font-size: 36px;
+  font-weight: 500;
+  color: #3d4f9f;
+  margin-bottom: 16px;
+}
+.testimonials__left-text {
+  width: 323px;
+  height: 78.16px;
+  font-size: 12px;
+  line-height: 189%;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  color: #a4abc8;
+  border: 0px solid #dfe2ef;
+}
+.testimonials__right {
+  margin-top: 109px;
+}
+.testimonials__right-slide {
+  width: 423px;
+  height: 175.37px;
+  background: #FFFFFF;
+  border: 1px solid #D8E3FE;
+  box-shadow: 0px 5px 50px #F3F5FA;
+}
+.testimonials__right-slide p {
+  position: relative;
+  top: 31px;
+  left: 79px;
+  width: 283px;
+  height: 81.17px;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #676f95;
+  border: 0px solid #dfe2ef;
+  font-family: "Roboto", sans-serif;
+}
+.testimonials__right-pic {
+  position: relative;
+  bottom: 31.5px;
+  text-align: center;
+}
+.testimonials__right-slider-button {
+  position: relative;
+  left: 10px;
+}
+
 .footer__body {
   top: 240px;
   position: relative;
