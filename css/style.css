@@ -797,6 +797,7 @@ html, body {
   margin-bottom: 17px;
   border-bottom: 1px solid #D8E3FE;
   padding-bottom: 15px;
+  transition: 0.3s;
 }
 .help__list-title {
   padding-left: 24px;
@@ -807,6 +808,7 @@ html, body {
   color: #8e96b7;
   margin-bottom: 16px;
   background: url("/img/Vector__1.svg") left no-repeat;
+  transition: 0.3s;
 }
 .help__list-text {
   padding-left: 19px;
@@ -816,12 +818,25 @@ html, body {
   color: #8d96bd;
   border: 0px solid #dfe2ef;
   opacity: 0;
+  transition: 0.3s;
+  margin-left: 25px;
 }
 .help__list-buttons {
   position: relative;
   bottom: 70px;
   left: 476px;
   opacity: 0;
+  transition: 0.3s;
+}
+.help__list-buttons:hover {
+  transition: 0.3s;
+  background-color: #D2E1FF;
+}
+.help__list-buttons:hover a span {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  color: #3a79ff;
 }
 
 .footer__body {
@@ -1059,4 +1074,24 @@ html, body {
 .media:hover img {
   transition: 0.3s;
   transform: translateY(-3px);
+}
+
+.activeList {
+  height: 176px;
+  border-bottom: 1px solid #D8E3FE;
+}
+.activeList .help__list-title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #495274;
+  background: url("/img/Vector__1.1.svg") left no-repeat;
+}
+.activeList .help__list-text {
+  margin-top: 25px;
+  opacity: 1;
+}
+.activeList .help__list-buttons {
+  opacity: 1;
 }
