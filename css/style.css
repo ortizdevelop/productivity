@@ -839,6 +839,16 @@ html, body {
   color: #3a79ff;
 }
 
+.started-now__body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.started-now__content {
+  margin: 0 auto;
+}
 .footer__body {
   top: 240px;
   position: relative;
