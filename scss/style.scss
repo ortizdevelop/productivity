@@ -1034,27 +1034,100 @@ html,body{
 .started-now {
 
     &__body {
+        margin-top: 126px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        background: url('/img/clouds-bg_2.svg') center no-repeat;
     }
 
     &__content {
-        margin: 0 auto;
+        margin: 0 auto;;
     }
 
     &__title {
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-top: 91px;
+        margin-bottom: 16px;
     }
 
     &__subtitle {
+        font-size: 48px;
+        color: #fff;
+        text-align: center;
+
+        span{
+            font-weight: bold;
+        }
     }
 
     &__text {
+        position: relative;
+        top: 28px;
+        width: 712px;
+        height: 78px;
+        font-size: 15px;
+        line-height: 191%;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #fff;
+        border: 0px solid #dfe2ef;
     }
 
     &__button {
+        position: relative;
+        top: 88px;
+        left: 198px;
+        background: #6888FF;
+        border: 1px solid #A0B4FF;
+        transition: 0.3s;
+
+        a{
+            transition: 0.3s;
+
+            span{
+                transition: 0.3s;
+                font-size: 13px;
+                font-weight: 500;
+                text-align: center;
+                color: #c7d3ff;
+            }
+        }
+
+        &:nth-child(4){
+            left: 202px;
+        }
+
+        &:nth-child(5){
+            right: 202px;
+        }
+
+        &:hover{
+            transition: 0.3s;
+            border: 1px solid #FFFFFF;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 15px #6480E8;
+            width: 150px;
+            
+            a{
+                transition: 0.3s;   
+                
+                span{
+                    transition: 0.3s;
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #565f82;
+                }
+            }
+        }
     }
 }
 
@@ -1255,7 +1328,7 @@ html,body{
 }
 
 .double-button{
-    width: 130.08px;
+    width: 140.08px;
     height: 43px;
 }
 
