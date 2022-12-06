@@ -839,6 +839,86 @@ html, body {
   color: #3a79ff;
 }
 
+.newsletter__body {
+  margin-top: 118px;
+}
+.newsletter__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-items: center;
+}
+.newsletter__left {
+  margin: 0 auto;
+}
+.newsletter__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #3d4f9f;
+  margin-bottom: 17px;
+}
+.newsletter__subtitle {
+  font-size: 14px;
+  line-height: 191%;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+  border: 0px solid #dfe2ef;
+  padding-left: 125px;
+}
+.newsletter__mail {
+  width: 279px;
+  height: 59px;
+  background-color: #efeff7;
+  border-radius: 5px;
+  transition: 0.3s;
+  padding-left: 23px;
+}
+.newsletter__mail::-moz-placeholder {
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.newsletter__mail:-ms-input-placeholder {
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.newsletter__mail::placeholder {
+  transition: 0.3s;
+  font-weight: bold;
+}
+.newsletter__button {
+  width: 184px;
+  height: 59px;
+  background-color: #FFFFFF;
+  margin-left: 14px;
+  border-radius: 5px;
+  border: 1px solid #4d6ce1;
+  transition: 0.3s;
+}
+.newsletter__button a {
+  transition: 0.3s;
+}
+.newsletter__button a span {
+  transition: 0.3s;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #4d6ce1;
+}
+.newsletter__button:hover {
+  transition: 0.3s;
+  background-color: #4d6ce1;
+  box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+}
+.newsletter__button:hover a span {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
 .footer__body {
   top: 240px;
   position: relative;
